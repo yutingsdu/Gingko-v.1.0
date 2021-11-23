@@ -147,7 +147,7 @@ Prerequisites
 
     To test if you have succesfully installed Gingko, please download the demo data set from 
       
-    https://sourceforge.net/projects/Gingko/files/DemoData/. 
+    https://sourceforge.net/projects/transassembly/files/Gingko/DemoData/. 
 
     At this website you will see two alignments files produced by Hisat2 and Star (Hisat.bam and Star.bam)
 
@@ -183,7 +183,7 @@ Gingko v.1.0 usage:
 
 ---------------------------------------------------------------------------
 
-* Options *
+** Options **
 
     --help/-h			: Output Gingko Help Information
 
@@ -209,11 +209,11 @@ Gingko v.1.0 usage:
 
   (i) A typical Gingko command for paired-end data might be:
 
-    Gingko -B bamFiles_list -s first -o Gingko_outdir -p 2
+    Gingko -B bamFiles_list -s first -o Gingko_outdir -p 25
 
   (ii) A typical Gingko command for single-end data might be:
 
-    Gingko -B bamFiles_list -s single_reverse -o Gingko_outdir -p 2
+    Gingko -B bamFiles_list -s single_reverse -o Gingko_outdir -p 25
 
 ===========================================================================
 
@@ -223,5 +223,5 @@ Authors: Ting Yu designed and wrote Gingko.
 Contact:
  Any questions, problems, bugs are welcome and should be dumped to
  Ting Yu <yutingsdu@163.com>
- Created on Oct 6, 2021.
+ Created on Nov 24, 2021.
 
