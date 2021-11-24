@@ -157,7 +157,7 @@ Prerequisites
 
         $ ./run_me.sh
 
-    If you get the Gingko_outdir/Gingko.gtf, congratulations, you have succesfully installed the Gingko.
+    If you get the gingko_outdir/Gingko.gtf, congratulations, you have succesfully installed the Gingko.
 
 
 
