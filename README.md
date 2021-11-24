@@ -94,7 +94,7 @@ Prerequisites
     
     Note: you need to tell the Gingko installer where to find bamtools later on.
 
-# 3. Building Gineko
+# 3. Building Gingko
 
     Change to the Gingko-v.1.0/src directory and make
 
