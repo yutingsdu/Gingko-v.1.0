@@ -140,7 +140,7 @@ Prerequisites
 
         $ Gingko -B bamFile_list -s first -o Gingko_outdir
 
-        where the bamFile_list is a file that lists the alignments BAM files (one per line).
+        where the bamFile_list is a file that lists the alignments BAM files (one per line) of multiple samples.
 
 
 # 5. Testing Gingko on a demo data set:
@@ -149,7 +149,7 @@ Prerequisites
       
     https://sourceforge.net/projects/transassembly/files/Gingko/DemoData/. 
 
-    At this website you will see two alignments files produced by Hisat2 and Star (Hisat.bam and Star.bam)
+    At this website you will see two alignments files of two samples(sample1.bam and sample2.bam)
 
     Put the Hisat.bam and Star.bam in the directory Gingko-v.1.0/sample_test/ and change to Gingko-v.1.0/sample_test/
 
